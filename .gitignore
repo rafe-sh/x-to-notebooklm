@@ -1,0 +1,19 @@
+# Output directories
+/output/
+
+# Environment and secrets
+.env
+state.json
+*.env
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+env/
+.venv/
+.DS_Store
